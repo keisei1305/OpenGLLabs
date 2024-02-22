@@ -56,7 +56,7 @@ void drawHead() {
 
 void drawEyes() {
 	glColor3f(1.0, 1.0, 1.0);
-	glTranslatef(1, 2, -6);
+	glTranslatef(0.6, 1.8, -6);
 	gluSphere(gluNewQuadric(), 0.3, 1000, 1000);
 	glColor3f(0.0, 0.0, 0.0);
 	glTranslatef(0, 0.25, 0);
@@ -110,7 +110,7 @@ void drawArms() {
 
 void drawLegs() {
 	glColor3f(0.68f, 0.33f, 0.18f);
-	glTranslatef(2.2, -0.5, 1.4);
+	glTranslatef(2.6, -0.3, 1.4);
 	gluSphere(gluNewQuadric(), 0.7, 1000, 1000);
 	gluCylinder(gluNewQuadric(), 0.7, 0.7, 1, 20, 20);
 	glTranslatef(0, 0, 1);
